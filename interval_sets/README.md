@@ -1,7 +1,3 @@
-##
-
-##
-
 ## Zadanie 3: Modyfikacja drzew
 
 Zadanie polega na zmodyfikowaniu biblioteki zbiorów pojedynczych elementów zaimplementowanych jako pewien wariant drzew AVL (drzewa BST z wyważaniem). Dzięki wyważaniu wysokość drzewa jest zawsze rzędu logarytmu z liczby wierzchołków i dlatego wszystkie operacje wykonywane są w czasie logarytmicznym (nawet operacja split, ale to jest trochę mniej oczywiste: wynika z tego, że koszt join jest w istocie proporcjonalny do **różnicy** wysokości drzew, które łączymy. A ponieważ na split składa się ciąg operacji join na coraz wyższych drzewach, ich koszty sumują się do wysokości drzewa razy pewna stała).   

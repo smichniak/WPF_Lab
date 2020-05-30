@@ -1,5 +1,3 @@
-##
-
 ## Zadanie 2: Drzewa Lewicowe
 
 Drzewa lewicowe to ciekawa implementacja złączalnych kolejek priorytetowych.   

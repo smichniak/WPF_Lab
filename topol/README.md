@@ -1,11 +1,3 @@
-##
-
-##
-
-##
-
-##
-
 ## Zadanie 5: Sortowanie topologiczne
 
 Sortowanie topologiczne polega na rozszerzeniu grafu skierowanego bez cykli (DAG-u) do porządku liniowego.   

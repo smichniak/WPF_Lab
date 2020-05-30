@@ -1,13 +1,3 @@
-##
-
-##
-
-##
-
-##
-
-##
-
 ## Zadanie 6: Przelewanka
 
 Masz dane n szklanek, ponumerowanych od 1 do n, o pojemnościach odpowiednio x1, x2, ..., xn.  Początkowo wszystkie szklanki są puste. Możesz wykonywać następujące czynności:
