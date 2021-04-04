@@ -45,7 +45,7 @@ let rec join qu1 qu2 =
     (* Chcemy, żeby pierwsze drzewo miało mniejszą wartość w korzeniu *)
     if value2 < value1 then join qu2 qu1
     (* Korzeniem nowego drzewa będzie korzeń pierwszego drzewa (ma ono mniejszy korzeń, niż drugie), lewym poddrzewem będzie lewe poddrzewo pierwszego drzewa,
-       a prawym połączenie prawego poddrzewa i ddrugiego drzewa *)
+       a prawym połączenie prawego poddrzewa i drugiego drzewa *)
     else (Node(value1, (min height1 height2) + 1 ,l1, join r1 qu2)) |> fix_leftis (* Wynikowe drzewo musi być lewicowe *)
 
 (* Dodaje nowy element do drzewa *)
